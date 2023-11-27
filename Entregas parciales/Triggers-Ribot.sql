@@ -321,6 +321,6 @@ begin
 end//
 delimiter ;
 
-
+INSERT INTO Proveedores VALUES 	(1, 'Hierro CORT', 1129584723, 'Av. Marcelo T. de Alvear 2295', 'Daniel. Perfileria de hierro. No trabajan Acero Inoxidable.');
 delete from proveedores where id_proveedor = 1;
 select * from LOG_AUDITORIA;
